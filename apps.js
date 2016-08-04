@@ -1,37 +1,37 @@
 var musicProducts = [
   
   {title: "Basic Package",
-    price: "$X",
-    description: "",
+    price: "$325",
+    description: "Full band demo with great singer, plus instrumental tracks, on cd, $325 US",
     img: "product-basic.png"
   },  
 
   {title: "Sheet Music",
-    price: "$X",
+    price: "$25 A Song",
     description: "",
     img: "product-sheetmusic.png"
   },  
 
   {title: "Full Band",
-    price: "$X",
+    price: "$225",
     description: "",
     img: "product-basic.png"
   },  
 
   {title: "Instrumental",
-    price: "$X",
-    description: "",
+    price: "$",
+    description: "Background tracks only.",
     img: "product-instrumental.png"
   },  
 
   {title: "CDs",
-    price: "$X",
+    price: "$5 Each",
     description: "",
     img: "product-cd.png"
   },  
 
   {title: "Songwriting Coaching",
-    price: "$X",
+    price: "$",
     description: "",
     img: "product-coaching.png"
   },  
@@ -50,3 +50,16 @@ var musicProducts = [
 
 
 ];
+
+var productCard  = "";
+for (var i = 0; i < musicProducts.length; i++) {
+  productCard += "<div class='card'>";
+  productCard += "<h1>" + musicProducts[i].title + "</h1>";
+  productCard += "<img class ='picture' src= ' " + musicProducts[i].img + " '>";
+  productCard += "<p class='price'>" + musicProducts[i].price + "</p>";
+  productCard += "<p class='description'>" + musicProducts[i].description + "</p>";
+  productCard +="</div>";
+
+};
+
+document.getElementById("musicProducts").innerHTML = productCard;
