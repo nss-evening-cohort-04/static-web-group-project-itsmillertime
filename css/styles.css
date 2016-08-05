@@ -1,31 +1,70 @@
-* {
-  margin: 0;
+*{
+  padding: 0;
 }
-
 body {
   font-size: 1em;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
-/*.main-image {
+/*top nav bar*/
+nav ul{
+  list-style-type: none;
+  background-color: black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav img{
+  width: 10em;
+}
+
+nav ul li{
   display: inline-block;
-  float: left;
-  width: 39%;
-  padding: 10px;
 }
 
-.about-frank {
-  display: inline-block;
-  float: right;
-  width: 57%;
-  padding: 10px;
+nav ul li a{
+  padding-right: 35px;
+  padding-left: 50px;
+  text-decoration: none;
+  color: white;
 }
 
-.main {
-  display: block;
+.navpad{
+  margin-top: -10px;
+  padding-top: -20px;
 }
 
-.about-singer {
-  border-radius: 100%;
-  width: 200px;
-  height: 200px;
-}*/
+
+/*footer*/
+.social-icons {
+ width: 2em;
+ height: 2em;
+ padding: 5px;
+}
+
+footer ul {
+ list-style-type: none;
+ background-color: black;
+ text-align: center;
+}
+
+footer li {
+ display: inline-block;
+}
+
+footer p {
+ font-size: .5em;
+ margin: 0 auto;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+}
+/*home page main image*/
+.backimg{
+  width: 100%;
+}
+
+.index{
+  background-color: #000000;
+}
