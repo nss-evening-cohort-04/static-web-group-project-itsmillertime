@@ -22,6 +22,7 @@ nav ul{
 
 nav img{
   width: 10em;
+  padding-top: .30em;
 }
 
 nav ul li{
@@ -58,6 +59,15 @@ nav ul li a{
   padding: 6px 0; 
 }
 
+/*.linkimg{
+  content: url('images/nav_logo_noborder.png');'
+}
+
+.linkimg:hover{
+  content: url('images/nav_logo.png');
+}
+*/
+
 /*footer*/
 .social-icons {
  width: 2em;
@@ -65,13 +75,13 @@ nav ul li a{
  padding: 5px;
 }
 
-footer{
+/*footer{
   position: fixed;
   bottom: 0;
   text-align: center;
   width: 100%;
 }
-
+*/
 footer ul {
   list-style-type: none;
   text-align: center;
@@ -90,6 +100,11 @@ footer p {
  width: 100%;
 }
 
+footer p a{
+  text-decoration: none;
+  color: white;
+}
+
 /*home page main image*/
 .backimg{
   width: 100%;
@@ -97,4 +112,21 @@ footer p {
 
 .index{
   background-color: #000000;
+}
+
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+
+.page-wrap:after{
+  content: "";
+  display: block;
+}
+
+.stickyfoot, .page-wrap:after{
+  height: 100px;
+}
+
+.stickyfoot{
 }
