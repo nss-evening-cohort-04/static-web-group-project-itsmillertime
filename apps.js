@@ -1,50 +1,50 @@
 var musicProducts = [
   
-  {title: "Basic Package",
+  {title: "Full Demo",
     price: "$325",
-    description: "Full band demo with great singer, plus instrumental tracks, on cd, $325 US",
+    description: "Full band demo with great singer, plus instrumental tracks on CD.",
     img: "product-basic.png"
   },  
 
   {title: "Sheet Music",
     price: "$25 A Song",
-    description: "",
+    description: "Your song charted out in the Nashville Numbers method.",
     img: "product-sheetmusic.png"
   },  
 
-  {title: "Full Band",
-    price: "$225",
-    description: "",
+  {title: "Basic Demo",
+    price: "$150",
+    description: "Acoustic guitar, bass and drum machine, great vocal.",
     img: "product-basic.png"
   },  
 
   {title: "Instrumental",
-    price: "$",
-    description: "Background tracks only.",
+    price: "$225",
+    description: "Full band tracks only, no vocal.",
     img: "product-instrumental.png"
   },  
 
   {title: "CDs",
-    price: "$5 Each",
-    description: "",
+    price: "$5/each",
+    description: "Extra copies of CD, with label.",
     img: "product-cd.png"
   },  
 
   {title: "Songwriting Coaching",
-    price: "$",
-    description: "",
+    price: "$50/session",
+    description: "Feedback on your lyrics/melody.  All feedback via email.",
     img: "product-coaching.png"
   },  
 
   {title: "Skype Lessons",
-    price: "$X",
-    description: "",
+    price: "$30/session",
+    description: "Learn fundamentals on the banjo, mandolin, dobro, fiddle and guitar.  Must have your own insturment.",
     img: "product-lesson.png"
   },  
 
-  {title: "Attend the Coaching Lessons",
-    price: "$X",
-    description: "",
+  {title: "Attend the Recording Session",
+    price: "$100/session",
+    description: "Attend the studio session when your song is brought to life.",
     img: "product-session.png"
   },  
 
