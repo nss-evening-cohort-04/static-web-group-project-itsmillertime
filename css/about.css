@@ -37,3 +37,9 @@ footer p a {
   border-radius: 50%;
   display: 20%;
 }
+
+.contact-us {
+  width: 2em;
+  padding: 1em;
+  text-align: center;
+}
