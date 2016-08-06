@@ -24,8 +24,8 @@ footer p a {
   float: right;
   display: 30%;
   width: 15em;
-/*  border-radius: 1em;
-*/}
+  padding-left: 5px;
+}
 
 .main-info {
   margin: 10px 0px;
