@@ -85,12 +85,12 @@ nav ul li a{
   width: 100%;
 }
 */
-footer ul {
+footer ul, .contact-frank {
   list-style-type: none;
   text-align: center;
 }
 
-footer li {
+footer li, .contact-frank li {
  display: inline-block;
 }
 
