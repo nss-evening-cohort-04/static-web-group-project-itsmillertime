@@ -36,10 +36,11 @@ footer p a {
   float: right;
   border-radius: 50%;
   display: 20%;
+  padding-left: 5px;
 }
 
 .contact-us {
-  width: 2em;
+  width: 3em;
   padding: 1em;
   text-align: center;
 }
