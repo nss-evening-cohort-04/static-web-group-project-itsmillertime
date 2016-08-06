@@ -6,6 +6,53 @@ body {
   font-family: Verdana, Geneva, sans-serif;
 }
 
+#musicProducts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  background-color: #A3A6A1;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productCard > img {
+  display: block;
+  margin: 0 auto;
+  max-height: 189px;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+
+.productCard {
+  border: 1px solid black;
+  background-color: #A3A6A1;
+  margin: 5%;
+  box-shadow: 2px 2px 2px 15px black;
+  width: 300px;
+  height: 470px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 18px;
+  padding:  5%;
+}
+
 /*top nav bar*/
 nav ul{
   list-style-type: none;
