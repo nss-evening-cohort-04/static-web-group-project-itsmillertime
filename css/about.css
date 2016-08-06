@@ -1,0 +1,26 @@
+.about-page {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.about-frank {
+  display: block;
+}
+
+.main-image {
+  float: right;
+  display: 30%;
+  width: 20em;
+}
+
+.main-info {
+  margin: 10px 0px;
+}
+
+.about-singer {
+  width: 7em;
+  float: right;
+  border-radius: 50%;
+  display: 20%;
+}
