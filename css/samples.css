@@ -19,6 +19,16 @@
   margin: 0 auto;
 }
 
+h3.hi {
+  padding-top: 1em;
+
+}
+
+.mid-content {
+  margin: 1% 0 4% 17%;
+  width: 960px;
+}
+
 .index{
   background-color: white;
 }
