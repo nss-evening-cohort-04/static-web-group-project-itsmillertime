@@ -1,0 +1,98 @@
+.sample-page {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+/*.sample-page img, {
+  display: inline-block;
+  float: left;
+}
+
+.sample-page blockquote, {
+  display: inline-block;
+  float: right;
+}*/
+
+
+.sample-center {
+  margin: 0 auto;
+}
+
+.index{
+  background-color: white;
+}
+
+footer p {
+  color: black;
+}
+
+footer p a {
+  color: black;
+}
+
+figcaption {
+  float: left;
+  font-size: .25em;
+}
+
+
+/*home page main body (pictures/fonts/etc)*/
+
+
+header {
+  margin: 3%;
+  width: 75%;
+}
+
+.mid-content {
+  margin: 1% 0 4% 17%;
+  width: 960px;
+}
+
+.headshots {
+  border-radius: 150%;
+  height: 175px;
+}
+
+iframe {
+  margin: 0 auto;
+}
+
+blockquote {
+border: none;
+font-family: Georgia, "Times New Roman", Times, serif;
+/*margin-bottom:-30px;
+*/position: relative;
+max-width: 400px;
+margin: 0 auto;
+padding-left: 0.4em;
+}
+
+blockquote p {
+    font-size:14px;
+    text-align: justify;
+    margin-top: -40%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+blockquote p:before {
+    content: "\201C";
+    font-weight: bold;
+    font-size:80px;
+    color:gray;
+    position: absolute;
+    top: -0.2em;
+    left: -0.5em;
+    font-family: 'Georgia';
+}
+blockquote p:after {
+    content: "\201D";
+    font-weight: bold;
+    font-size:80px;
+    color:gray;
+    position: absolute;
+    bottom: -0.8em;
+    right: .8em;
+  }

@@ -1,0 +1,60 @@
+.index{
+  background-color: white;
+}
+
+footer p {
+  color: black;
+}
+
+footer p a {
+  color: black;
+}
+
+#musicProducts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productCard > img {
+  display: block;
+  margin: 0 auto;
+  max-height: 10em;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productCard {
+  border: .25em solid black;
+  background-color: #fff;
+  margin: 5%;
+  width: 10em;
+/*  height: 325px;
+*/}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 1em;
+  padding:  5%;
+}
+
+.test {
+  width: 10em;
+}
