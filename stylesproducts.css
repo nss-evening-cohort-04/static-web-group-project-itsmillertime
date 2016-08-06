@@ -6,6 +6,15 @@ body {
   font-family: Verdana, Geneva, sans-serif;
 }
 
+/*top nav bar*/
+nav ul{
+  list-style-type: none;
+  background-color: black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #musicProducts {
     display: flex;
     flex-direction: row;
@@ -53,13 +62,8 @@ h1 {
   padding:  5%;
 }
 
-/*top nav bar*/
-nav ul{
-  list-style-type: none;
-  background-color: black;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
+nav{
+ position: absolute top center;
 }
 
 nav img{
@@ -110,6 +114,10 @@ footer p {
 /*home page main image*/
 .backimg{
   width: 100%;
+}
+
+footer{
+ position: absolute bottom center;
 }
 
 .index{
