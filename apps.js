@@ -3,7 +3,7 @@ var musicProducts = [
   {title: "Basic Demo",
     price: "$325/song",
     description: "Full band demo with great singer, plus instrumental tracks on CD.",
-    png: "images/product-basic.png"
+    png: "images/product-full.png"
   },
 
   {title: "Sheet Music",
