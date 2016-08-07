@@ -24,6 +24,10 @@ h3.hi {
 
 }
 
+.titles {
+  font-size: 2em;
+}
+
 .mid-content {
   margin: 1% 0 4% 17%;
   width: 960px;
