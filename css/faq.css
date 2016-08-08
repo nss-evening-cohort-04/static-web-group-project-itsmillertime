@@ -15,8 +15,13 @@ footer p a {
   padding: 2.5em;
 }
 
-.faq-header h1{
+h1,
+.faq-header h1 {
   text-align: center;
+}
+
+h1 {
+  padding-top: 0.3em;
 }
 
 /*FAQ customization*/
