@@ -39,8 +39,11 @@ footer p a {
   padding-left: 5px;
 }
 
+.contact-frank {
+  text-align: left;
+}
+
 .contact-us {
-  width: 3em;
-  padding: 1em;
-  text-align: center;
+  width: 1.5em;
+  padding: .25em .25em 0 .25em;
 }
